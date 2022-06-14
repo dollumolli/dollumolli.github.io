@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>flower1 Jenstore Flowers</title>
+        <link rel="stylesheet" href="flower1.css">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.js"
+        integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="index.html"><img src= "главная/logo.png " alt="logo"></a></li>
+                        <li class="menu-item"><a href="about_us.html">О нас</a></li>
+                        <li class="menu-item"><a href="menu.html">Каталог</a></li>
+                        <li class="menu-item"><a href="Shipping_payment.html">Доставка и оплата</a></li>
+                        <li class="menu-item"><a href="contacts.html">Контакты</a></li>
+                        <li class="menu-item"><a href="tel:+7(495)0006061">+7 (495) 000-60-61</a></li>
+                    </ul>
+                </div> 
+                <h1>Jenstore Flowers</h1>
+            </div>
+        </header>
+        <main id="main">
+            <div class="flowers1">
+                    <a href="#modal-img"><img src= "главная/flower1.png" alt="Шляпная коробка с цветами "Неженка""></a>
+                    <div class="flowers-text">
+                        <h2>Шляпная коробка с цветами "Неженка"</h2>
+                            <span>4500 руб.</span>
+                            <a href="#modal" class="button">Заказать в 1 клик</a>
+                    </div>
+                    <div class="flowers-shipment">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src= "главная/icon1.png" alt="icon1">
+                                </td>
+                                <td>
+                                    <p>Бесплатная доставка
+                                        <br><span>Доставка бесплатна  от 8000₽</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src= "главная/icon2.png" alt="icon2">
+                                </td>
+                                <td>
+                                    <p>Гарантия качества
+                                        <br><span>Замена букета или возврат денег</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src= "главная/icon3.png" alt="icon3">
+                                </td>
+                                <td>
+                                    <p>Фото­контроль
+                                        <br><span>Фото букета перед доставкой в Viber / Telegram / WhatSapp</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src= "главная/icon4.png" alt="icon4">
+                                </td>
+                                <td>
+                                    <p>Подарочный конверт
+                                        <br><span>+ открытка в конверте
+                                            <br>+ инструкция по уходу
+                                            <br>+ средства для продления жизни цветов
+                                        </span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                </div>
+                
+                    <div class="about-flower1">
+                        <h2>Описание букета:</h2>
+                        <div class="flowers-row">
+                            <article>
+                            <h3>Артикул:</h3>
+                            <span>0001794</span>
+                        </article>
+                        <article>
+                            <h3>Размеры:</h3>
+                            <span>Длина: 20.00 см Высота: 30.00 см Ширина: 20.00 см</span>
+                        </article>
+                        <article>
+                            <h3>Состав:</h3>
+                            <span>Цветы: Гортензии, Розы, Пионы</span><br>
+                                <span> Цвет: Розовый, Белый</span>
+                        </article></div>
+                    </div>
+            </div>
+            <div class="modal-img" id="modal-img">
+                <a href="#main" class="modal-area"></a>
+                <form class="modal-form" action="" method="post">
+                    <img src= "главная/flower1.png" alt="Шляпная коробка с цветами "Неженка"">
+                    <a href="#main" class="modal-close">X</a>
+            </form>
+            </div>
+            <div class="contacts" id="modal">
+                <a href="#main" class="modal-area"></a>
+                <form class="contacts-form" action="" method="post">
+                    <a href="#main" class="modal-close">X</a>
+                    <h2>Оставьте заявку</h2>
+                    <span>Мы свяжемся с вами в течение 10 минут</span>
+                    <div class="form">
+                        <div class="title">
+                            <label for="fullname">Ваше имя</label>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="fullname" placeholder="Иван Иванов">
+                        </div>
+                        <div class="title">
+                            <label for="phone">Ваш телефон</label>
+                        </div>
+                        <div class="field">
+                            <input type="tel" id="phone" name="phone" pattern="[8]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="8-917-458-48-58">
+                        </div>
+                        <input type="submit" class="button" value="Заказать звонок">  
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <img src= "главная/logo.png " alt="logo">
+            <div class="footer-parts">
+                <article>
+                    <p>Адрес:</p>
+                        <span>г. Москва, ул. Тверская, д. 17</span>
+                    <p>Режим работы:</p>
+                        <span>Ежедневно с 9:00 до 21:00</span>
+                </article>
+                <article>
+                    <p>Наши контакты:</p>
+                    <a href="tel:+7(495)0006061">+7 (495) 000-60-61</a><br>
+                    <a href="tel:+7(495)0006561">+7 (495) 000-65-61 </a>
+                </article>
+                <article>
+                    <p>Мы в социальных сетях:</p>
+                    <a href="https://vk.com/feed"></a><img src= "главная/vk.png " alt="logo_vk"></a>
+                    <a href="https://www.facebook.com/"><img src= "главная/fb.png " alt="logo_fb"></a>
+                    <a href="https://web.whatsapp.com/"><img src= "главная/wa.png " alt="logo_wa"></a>
+                </article>
+                <article>
+                    <p>Навигация:</p>
+                        <a href="about_us.html" class="menu-link">О нас</a><br>
+                        <a href="menu.html" class="menu-link">Каталог</a><br>
+                        <a href="Shipping_payment.html" class="menu-link">Доставка и оплата</a><br>
+                        <a href="contacts.html" class="menu-link">Контакты</a><br>
+                </article>
+            </div>
+            <div class="footer-last">
+                <p>Все права защищены.<br>
+                    © 2022 Студия цветов <span>Jenstore Flowers</span></p>
+
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+    </html>
