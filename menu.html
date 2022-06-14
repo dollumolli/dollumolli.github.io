@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Menu Jenstore Flowers</title>
+        <link rel="stylesheet" href="menu1.css">
+
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.slim.js"
+          integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+          crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="index.html"><img src= "главная/logo.png " alt="logo"></a></li>
+                        <li class="menu-item"><a href="about_us.html">О нас</a></li>
+                        <li class="menu-item"><a href="menu.html">Каталог</a></li>
+                        <li class="menu-item"><a href="Shipping_payment.html">Доставка и оплата</a></li>
+                        <li class="menu-item"><a href="contacts.html">Контакты</a></li>
+                        <li class="menu-item"><a href="tel:+7(495)0006061">+7 (495) 000-60-61</a></li>
+                    </ul>
+                </div> 
+                <h1>Jenstore Flowers</h1>
+            </div>
+        </header>
+        <main id="main">
+            <h2>ЦВЕТЫ</h2>
+            <div class="works">
+                <article>
+                    <a href="flower1.html"><img src= "главная/flower1.png" alt="Шляпная коробка с цветами "Неженка""></a>
+                    <div class="flowers-text">
+                        <p>Шляпная коробка с цветами "Неженка"</p>
+                        <div class="span">
+                            <span>4500 руб.</span>
+                            <a href="#modal" class="span1">КУПИТЬ</a>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <a href="flower1.html"><img src= "главная/flower2.png" alt="Букет микс "Виолетта""></a>
+                    <div class="flowers-text">
+                        <p>Букет микс "Виолетта"</p>
+                        <div class="span"><span>2500 руб.</span>
+                            <a href="#modal" class="span1">КУПИТЬ</a></div>
+                        
+                    </div>
+                </article>
+                <article>
+                    <a href="flower1.html"><img src= "главная/flower3.png" alt="Микс в шляпной коробке Милан "></a>
+                    <div class="flowers-text">
+                        <p>Микс в шляпной коробке Милан</p>
+                           <div class="span"><span>3500 руб.</span>
+                            <a href="#modal" class="span1">КУПИТЬ</a></div>
+                    </div>
+                </article>
+                <article>
+                    <a href="flower1.html"><img src= "главная/flower4.png" alt="Большой букет цветов микс "Восторг""></a>
+                    <div class="flowers-text">
+                        <p>Большой букет цветов микс "Восторг"</p>
+                        <div class="span">
+                            <span>4200 руб.</span>
+                        <a href="#modal" class="span1">КУПИТЬ</a>
+                        </div>                    
+                    </div>
+                </article>
+            </div>
+
+            <div class="contacts" id="modal">
+                <a href="#main" class="modal-area"></a>
+                <form class="contacts-form" action="" method="post">
+                    <a href="#main" class="modal-close">X</a>
+                    <h2>Оставьте заявку</h2>
+                    <span>Мы свяжемся с вами в течение 10 минут</span>
+                    <div class="form">
+                        <div class="title">
+                            <label for="fullname">Ваше имя</label>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="fullname" placeholder="Иван Иванов">
+                        </div>
+                        <div class="title">
+                            <label for="phone">Ваш телефон</label>
+                        </div>
+                        <div class="field">
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="8-917-458-48-58">
+                        </div>
+                        <input type="submit" class="button" value="Заказать звонок">  
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <img src= "главная/logo.png " alt="logo">
+            <div class="footer-parts">
+                <article>
+                    <p>Адрес:</p>
+                        <span>г. Москва, ул. Тверская, д. 17</span>
+                    <p>Режим работы:</p>
+                        <span>Ежедневно с 9:00 до 21:00</span>
+                </article>
+                <article>
+                    <p>Наши контакты:</p>
+                    <a href="tel:+7(495)0006061">+7 (495) 000-60-61</a><br>
+                    <a href="tel:+7(495)0006561">+7 (495) 000-65-61 </a>
+                </article>
+                <article>
+                    <p>Мы в социальных сетях:</p>
+                    <a href="https://vk.com/feed"><img src= "главная/vk.png" alt="logo_vk"></a>
+                    <a href="https://www.facebook.com/"><img src= "главная/fb.png " alt="logo_fb"></a>
+                    <a href="https://web.whatsapp.com/"><img src= "главная/wa.png " alt="logo_wa"></a>
+                </article>
+                <article>
+                    <p>Навигация:</p>
+                        <a href="about_us.html" class="menu-link">О нас</a><br>
+                        <a href="menu.html" class="menu-link">Каталог</a><br>
+                        <a href="Shipping_payment.html" class="menu-link">Доставка и оплата</a><br>
+                        <a href="contacts.html" class="menu-link">Контакты</a><br>
+                </article>
+            </div>
+            <div class="footer-last">
+                <p>Все права защищены.<br>
+                    © 2022 Студия цветов <span>Jenstore Flowers</span></p>
+
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+    </html>
